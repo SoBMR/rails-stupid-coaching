@@ -7,18 +7,19 @@ $gray: #F4F4F4;
 
 .question {
   background: $gray; // Using this variable
-  font-size: 75px;
+  font-size: 60px;
 }
 
 .answer {
   background: rgb(244, 244, 173);
-  font-size: 75px;
+  font-size: 60px;
+}
+
+.italic {
   font-style: italic;
 }
 
 p {
-  color: grey;
-  &:hover {
-    color: black;
-  }
+  color: black;
 }
+
